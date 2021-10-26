@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class Dictionary {
+import java.util.ArrayList;
+
+public class Dictionary {
+    private ArrayList<Word> words = new ArrayList<>();
+    public void addWord(Word word) {
+//        words.add(word);
+    }
 }
